@@ -39,6 +39,8 @@ end tell
 
 ## Push Jekyll post to Github
 
+I prefer to upload the generated site as Github Pages doesn't support custom plugins. If you don't need this step, just remove the `if` syntax.
+
 ```
 on alfred_script(message)
   tell application "Terminal"
